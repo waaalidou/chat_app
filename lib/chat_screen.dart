@@ -1,16 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'models/user.dart';
 
 class ChatScreen extends StatelessWidget {
-  ChatScreen({super.key});
-  final List<User> usersList = [
-    User(
-        fullName: "Seffih Oualid",
-        message: "Hello Walid",
-        isOnline: true,
-        hasReadMsg: true)
-  ];
+ const  ChatScreen({super.key});
+  
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
